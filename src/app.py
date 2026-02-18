@@ -20,6 +20,7 @@ app.mount("/static", StaticFiles(directory=os.path.join(Path(__file__).parent,
           "static")), name="static")
 
 # In-memory activity database
+# Added more activities to make it more realistic and fun for students to explore
 activities = {
     "Chess Club": {
         "description": "Learn strategies and compete in chess tournaments",
